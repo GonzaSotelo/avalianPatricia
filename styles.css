@@ -1,3 +1,5 @@
+/* BANNER */
+
 .banner__header img {
     width: 100%;
     height: 32vh;
@@ -24,4 +26,47 @@
 }
 .contailer__cards {
     margin: 0 auto;
+}
+
+
+/*  SECTION  */
+
+.section__index {
+padding-top: 2vw;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+.section__article1{
+    padding: 3vh 0;
+
+}
+.section__article1 img {
+    width: 60%;
+    border-radius: 0 20px 20px 0;
+
+}
+.section__article2{
+    padding: 3vh 0;
+}
+.section__article2 img {
+    width: 60%;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 40%;
+}
+.section__article3{
+    padding: 3vh 0;
+}
+.section__article3 img {
+    width: 60%;
+    border-radius: 0 20px 20px 0;
+}
+.section__article4{
+    padding: 3vh 0;
+}
+.section__article4 img {
+    width: 60%;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 40%;
 }

@@ -1,0 +1,16 @@
+.contailer__cards {
+    margin: auto 10% ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.card {
+    display: flex;
+    align-items: center;
+    margin: 5vw 0;
+}
+.card img {
+    width: 40vw;
+
+}

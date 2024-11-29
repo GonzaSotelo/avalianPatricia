@@ -7,8 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
           entry.target.classList.add("visible");
         }
       });
-    });
+    },
+    
+);
   
     articles.forEach((article) => observer.observe(article));
   });
-  

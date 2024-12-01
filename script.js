@@ -1,3 +1,25 @@
+const header = document.getElementById('header');
+const menuIcon = document.getElementById('menu-icon');
+const navLinks = document.querySelector('.nav-links');
+
+// Cambiar el fondo del header al hacer scroll
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 50) {
+    header.classList.remove('transparent');
+    header.classList.add('scrolled');
+  } else {
+    header.classList.remove('scrolled');
+    header.classList.add('transparent');
+  }
+});
+
+// Mostrar/Ocultar menú en dispositivos móviles
+menuIcon.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
+
+
+
 document.addEventListener("DOMContentLoaded", () => {
     const articles = document.querySelectorAll(".section__index article");
   

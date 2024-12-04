@@ -67,7 +67,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   font-size: 1rem;
   transition: color 0.3s ease;
 }
@@ -79,7 +79,7 @@ header {
 .menu-icon {
   display: none;
   font-size: 1.5rem;
-  color: #fff;
+  color: #50dd5a;
   cursor: pointer;
 }
 
@@ -88,7 +88,7 @@ header {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items:flex-start;
 
 }
 
@@ -97,8 +97,9 @@ header {
 /* BANNER */
 
 .banner__header img {
-    width: 100%;
-    height: 32vh;
+    width: 280vw;
+    height: 100vh;
+    margin-top: -10vh;
 }
 .button__wsp i {
     position: fixed; /* Permite que el botón permanezca fijo en la pantalla */
@@ -134,7 +135,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: -91vw 0px 0px 13vw;
+    margin: -50vh 0px 0px 13vw;
     z-index: 50;
   
 
@@ -290,7 +291,7 @@ footer a:hover {
   .nav-links {
     display: none;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: 60px;
     right: 0;

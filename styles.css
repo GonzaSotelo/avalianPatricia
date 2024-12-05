@@ -53,7 +53,7 @@ header {
 }
 .logo img {
     width: 12vw;
-    margin-left: 1vw;
+    margin-left: 3vw;
 }
 
 .nav-links {
@@ -67,7 +67,7 @@ header {
 
 .nav-links a {
   text-decoration: none;
-  color: #000000;
+  color: #009868;
   font-size: 1rem;
   transition: color 0.3s ease;
 }
@@ -81,6 +81,7 @@ header {
   font-size: 1.5rem;
   color: #50dd5a;
   cursor: pointer;
+  z-index: 100;
 }
 
 /* Banner */
@@ -122,6 +123,23 @@ header {
     background: #fff;
     transition: all 0.3s ease; /* Añade una transición suave al hover */
 }
+
+.article__river-boca {
+display: flex;
+
+}
+.river img {
+width: 50vw;
+}
+.boca img {
+  width: 50vw;
+}
+.river-boca__text {
+text-align: center;
+
+}
+
+
 
 
 /* SECTION INDEX PRINCIPIO */
@@ -171,7 +189,14 @@ header {
     color: #000000;
     padding: 3vw;
 }
-
+.boton_sobremi {
+  background-color: #50dd5a;
+  padding: 3vw;
+  border-radius: 50px;
+  color: #212529;
+  text-decoration: none;
+  margin-left: 5vw;
+}
 
 /*  SECTION INFO  */
 
@@ -291,12 +316,13 @@ footer a:hover {
   .nav-links {
     display: none;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(72, 72, 72, 1);
     position: absolute;
-    top: 60px;
+    top: 0px;
     right: 0;
     width: 100%;
     text-align: center;
+    padding-top: 10vh;
   }
 
   .nav-links.show {
@@ -314,9 +340,9 @@ footer a:hover {
 
 /* Transparent to white background effect */
 header.transparent {
-  background-color: rgba(255, 255, 255, 0.5);
+  
 }
 
 header.scrolled {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(33, 37, 41, 0.7);
 }
